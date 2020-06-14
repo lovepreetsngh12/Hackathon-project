@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="3" total="8" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="279212" started-at="2020-06-01T07:06:34Z" finished-at="2020-06-01T07:11:13Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="279212" started-at="2020-06-01T07:06:34Z" finished-at="2020-06-01T07:11:13Z">
+      <class name="TestClasses.SearchForBookshelveswithLogin">
+        <test-method status="PASS" signature="Text(java.util.Hashtable)[pri:0, instance:TestClasses.SearchForBookshelveswithLogin@190a65e]" name="Text" duration-ms="46753" started-at="2020-06-01T12:37:44Z" data-provider="getCredentials" finished-at="2020-06-01T12:38:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Password=Love@1234, Email=cu.16bcs7063@gmail.com, Comments=Valid Credentials}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Text -->
+        <test-method status="FAIL" signature="Text(java.util.Hashtable)[pri:0, instance:TestClasses.SearchForBookshelveswithLogin@190a65e]" name="Text" duration-ms="27564" started-at="2020-06-01T12:38:31Z" data-provider="getCredentials" finished-at="2020-06-01T12:38:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Password=1234567.0, Email=lsingh@gmail.com, Comments=Invalid Credentials}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="junit.framework.AssertionFailedError">
+            <message>
+              <![CDATA[Username or email is incorrect]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[junit.framework.AssertionFailedError: Username or email is incorrect
+	at junit.framework.Assert.fail(Assert.java:47)
+	at BaseClasses.PageBaseClass.reportFail(PageBaseClass.java:76)
+	at PageClasses.ObjectSelection.Logincheck(ObjectSelection.java:29)
+	at TestClasses.SearchForBookshelveswithLogin.Text(SearchForBookshelveswithLogin.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1129)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:746)
+	at org.testng.TestRunner.run(TestRunner.java:600)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1264)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1189)
+	at org.testng.TestNG.runSuites(TestNG.java:1104)
+	at org.testng.TestNG.run(TestNG.java:1076)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+]]>
+            </full-stacktrace>
+          </exception> <!-- junit.framework.AssertionFailedError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Text -->
+      </class> <!-- TestClasses.SearchForBookshelveswithLogin -->
+      <class name="TestClasses.SearchForChairswithLogin">
+        <test-method status="PASS" signature="Text(java.util.Hashtable)[pri:0, instance:TestClasses.SearchForChairswithLogin@1bbf683]" name="Text" duration-ms="44039" started-at="2020-06-01T12:39:29Z" data-provider="getCredentials" finished-at="2020-06-01T12:40:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Password=Love@1234, Email=cu.16bcs7063@gmail.com, Comments=Valid Credentials}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Text -->
+        <test-method status="FAIL" signature="Text(java.util.Hashtable)[pri:0, instance:TestClasses.SearchForChairswithLogin@1bbf683]" name="Text" duration-ms="33870" started-at="2020-06-01T12:40:13Z" data-provider="getCredentials" finished-at="2020-06-01T12:40:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Password=1234567.0, Email=lsingh@gmail.com, Comments=Invalid Credentials}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="junit.framework.AssertionFailedError">
+            <message>
+              <![CDATA[Username or email is incorrect]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[junit.framework.AssertionFailedError: Username or email is incorrect
+	at junit.framework.Assert.fail(Assert.java:47)
+	at BaseClasses.PageBaseClass.reportFail(PageBaseClass.java:76)
+	at PageClasses.ObjectSelection.Logincheck(ObjectSelection.java:29)
+	at TestClasses.SearchForChairswithLogin.Text(SearchForChairswithLogin.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1129)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:746)
+	at org.testng.TestRunner.run(TestRunner.java:600)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1264)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1189)
+	at org.testng.TestNG.runSuites(TestNG.java:1104)
+	at org.testng.TestNG.run(TestNG.java:1076)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+]]>
+            </full-stacktrace>
+          </exception> <!-- junit.framework.AssertionFailedError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Text -->
+      </class> <!-- TestClasses.SearchForChairswithLogin -->
+      <class name="TestClasses.SearchForChairswithoutLogin">
+        <test-method status="PASS" signature="Searcchairswithoutlogin()[pri:0, instance:TestClasses.SearchForChairswithoutLogin@c8211c]" name="Searcchairswithoutlogin" duration-ms="24990" started-at="2020-06-01T12:40:47Z" finished-at="2020-06-01T12:41:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Searcchairswithoutlogin -->
+      </class> <!-- TestClasses.SearchForChairswithoutLogin -->
+      <class name="TestClasses.LoginUrbanLadderTest">
+        <test-method status="PASS" signature="LoginToUrbanLadder(java.util.Hashtable)[pri:0, instance:TestClasses.LoginUrbanLadderTest@2663d3]" name="LoginToUrbanLadder" duration-ms="39650" started-at="2020-06-01T12:36:35Z" data-provider="getData" finished-at="2020-06-01T12:37:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Password=Love@1234, Email=cu.16bcs7063@gmail.com, Comments=Valid Credentials}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginToUrbanLadder -->
+        <test-method status="FAIL" signature="LoginToUrbanLadder(java.util.Hashtable)[pri:0, instance:TestClasses.LoginUrbanLadderTest@2663d3]" name="LoginToUrbanLadder" duration-ms="29234" started-at="2020-06-01T12:37:15Z" data-provider="getData" finished-at="2020-06-01T12:37:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Password=1234567.0, Email=lsingh@gmail.com, Comments=Invalid Credentials}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="junit.framework.AssertionFailedError">
+            <message>
+              <![CDATA[Username or email is incorrect]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[junit.framework.AssertionFailedError: Username or email is incorrect
+	at junit.framework.Assert.fail(Assert.java:47)
+	at BaseClasses.PageBaseClass.reportFail(PageBaseClass.java:76)
+	at PageClasses.ObjectSelection.Logincheck(ObjectSelection.java:29)
+	at TestClasses.LoginUrbanLadderTest.LoginToUrbanLadder(LoginUrbanLadderTest.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1129)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:746)
+	at org.testng.TestRunner.run(TestRunner.java:600)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1264)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1189)
+	at org.testng.TestNG.runSuites(TestNG.java:1104)
+	at org.testng.TestNG.run(TestNG.java:1076)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+]]>
+            </full-stacktrace>
+          </exception> <!-- junit.framework.AssertionFailedError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginToUrbanLadder -->
+        <test-method status="PASS" signature="FlushReport()[pri:0, instance:TestClasses.LoginUrbanLadderTest@2663d3]" name="FlushReport" is-config="true" duration-ms="937" started-at="2020-06-01T12:41:12Z" finished-at="2020-06-01T12:41:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlushReport -->
+        <test-method status="PASS" signature="Quit()[pri:0, instance:TestClasses.LoginUrbanLadderTest@2663d3]" name="Quit" is-config="true" duration-ms="519" started-at="2020-06-01T12:41:13Z" finished-at="2020-06-01T12:41:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Quit -->
+      </class> <!-- TestClasses.LoginUrbanLadderTest -->
+      <class name="TestClasses.SearchForBookshelveswithoutLogin">
+        <test-method status="PASS" signature="Searchwithoutlogin()[pri:0, instance:TestClasses.SearchForBookshelveswithoutLogin@485a47]" name="Searchwithoutlogin" duration-ms="31072" started-at="2020-06-01T12:38:58Z" finished-at="2020-06-01T12:39:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Searchwithoutlogin -->
+      </class> <!-- TestClasses.SearchForBookshelveswithoutLogin -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

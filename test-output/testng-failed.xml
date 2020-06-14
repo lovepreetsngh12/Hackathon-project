@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="TestClasses.SearchForBookshelveswithLogin">
+        <methods>
+          <include name="Text" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- TestClasses.SearchForBookshelveswithLogin -->
+      <class name="TestClasses.SearchForChairswithLogin">
+        <methods>
+          <include name="Text" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- TestClasses.SearchForChairswithLogin -->
+      <class name="TestClasses.LoginUrbanLadderTest">
+        <methods>
+          <include name="FlushReport"/>
+          <include name="Quit"/>
+          <include name="LoginToUrbanLadder" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- TestClasses.LoginUrbanLadderTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
